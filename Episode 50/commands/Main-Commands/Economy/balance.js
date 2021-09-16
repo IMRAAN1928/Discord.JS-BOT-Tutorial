@@ -21,7 +21,6 @@ module.exports = {
         .setColor('RANDOM')
         .setDescription(`
 💸 Wallet:- **$${bal.toLocaleString()}**
-🏦 Bank:- **$${bank.toLocaleString()}**
         `)
         message.channel.send(embed)
     } // Keep Any Money Symbol, I kept $ Because Its Easy To Write Here
